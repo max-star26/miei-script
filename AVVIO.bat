@@ -21,60 +21,6 @@ rem ***URLs***
 set url_blank="about:blank"
 set url_login="https://mail.google.com/" 
 
-REM set url_01="https://app.raindrop.io/my/0"
-REM set url_02="https://calendar.google.com/calendar/u/0"
-REM set url_03="https://keep.google.com"
-REM set url_04="https://photos.google.com/albums"
-REM set url_05="https://docs.google.com/spreadsheets/u/0/?pli=1"
-REM set url_06="https://www.wikipedia.org/"
-REM set url_07="https://www.discogs.com/"
-
-REM set url_08="https://www.meteo.it/"
-REM set url_09="https://www.corriere.it"
-REM set url_10="https://www.repubblica.it/"
-REM set url_11="https://www.ilgiornale.it/"'
-REM set url_12="https://www.ilfattoquotidiano.it/"
-REM set url_13="https://news.google.com/home"
-REM set url_14="https://www.ilsole24ore.com/"
-REM set url_15="https://www.milanofinanza.it"
-REM set url_16="https://www.wired.it/"
-
-REM set url_17="https://it.tradingview.com/"
-REM set url_18="https://tradingplatform.finecobank.com/"
-REM set url_19="https://it.investing.com/economic-calendar/"
-REM set url_20="https://www.fondidoc.it/d/Ana/FAMREV12/IE00BFM13062_fam-advisory-7-l-cap-eur"
-REM set url_21="https://www.fondidoc.it/d/Ana/M4TT4R05/IE00BJDQMZ65_fam-ev-advisory-3-l-cap-eur"
-REM set url_22="https://www.fondidoc.it/d/Ana/ANMFRE12/IT0005221939_anima-fondo-trading-ad-dis"
-REM set url_23="https://www.fondidoc.it/d/Ana/SFORZE/IT0000380722_anima-sforzesco-a"
-REM set url_24="https://www.fondidoc.it/d/Ana/VISCON/IT0000380706_anima-visconteo-a"
-
-REM set url_25="https://bll.synology.me"
-REM set url_26="https://web.teamviewer.com/"
-REM set url_27="https://chat.openai.com/auth/login"
-REM set url_28="https://bard.google.com/chat"
-REM set url_29="https://copilot.microsoft.com/"
-REM set url_30="https://www.gartner.com/account/signin"
-REM set url_31="https://saymineapp.com/"
-REM set url_32="https://vault.bitwarden.com/#/login"
-
-REM set url_33="https://www.youtube.com/"
-REM set url_34="https://mastodon.uno/web/home"
-REM set url_35="https://www.facebook.com/"
-REM set url_36="https://x.com/home"
-REM set url_37="https://www.instagram.com/"
-REM set url_38="https://www.reddit.com/"
-REM set url_39="https://discord.com/login"
-REM set url_40="https://flipboard.com/"
-REM set url_41="https://www.pinterest.it/"
-REM set url_42="https://www.tiktok.com/login/phone-or-email/email"
-REM set url_43="https://www.twitch.tv/?lang=it-IT"
- 
-REM set url_44="https://web.whatsapp.com/"
-
-REM set url_45="https://www.google.com/maps"
-REM set url_46="https://www.cosavederearoma.com/20-luoghi-da-vedere-assolutamente/"
-
-
 rem ================= SEZIONE SCELTA LOCATION ==============================================
 CHOICE /C cmrt /T 30 /D c /M "Seleziona [C]asa [M]ilano [R]oma [T]est: "
 echo *************************************************************
@@ -107,98 +53,8 @@ rem ================= SEZIONE CASA =============================================
 	start "BRW" %BROWSER1% %url_login:~1,-1% 
 	timeout /t %tempo_login% /nobreak
 	
-	rem lancio siti
-	REM start "BRW" %BROWSER1% %url_01:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_02:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_03:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_04:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_05:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_06:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_07:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_08:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_09:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_10:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_11:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_12:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_13:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_14:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_15:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_16:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_17:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_18:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_19:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_20:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_21:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_22:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_23:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_24:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_25:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_26:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_27:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_28:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_29:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_30:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_31:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_32:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_33:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_34:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_35:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_36:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_37:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_38:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_39:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_40:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_41:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_42:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_43:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_44:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	
-	rem lancio browser per siti xxx
-	rem if NOT [%url_xsites%] EQU [""] start "XXX" %BROWSER3% 	
+	rem lancio browser per sitix 
+	rem if NOT [%url_xsites%] EQU [""] start "X" %BROWSER3% 	
 	
 	rem lancio programmi
 	call %softwC1%
@@ -250,96 +106,6 @@ rem ================= SEZIONE MLANO ============================================
 	start "BRW" %BROWSER1% %url_login:~1,-1% 
 	timeout /t %tempo_login% /nobreak
 	
-	rem lancio siti
-	REM start "BRW" %BROWSER1% %url_01:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_02:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_03:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_04:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_05:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_06:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_07:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_08:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_09:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_10:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_11:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_12:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_13:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_14:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_15:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_16:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_17:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_18:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_19:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_20:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_21:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_22:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_23:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_24:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_25:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_26:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_27:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_28:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_29:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_30:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_31:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_32:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_33:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_34:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_35:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_36:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_37:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_38:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_39:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_40:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_41:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_42:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_43:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_44:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	
 	start "P1" %softwM1%
 	timeout /t %tempo% /nobreak
 	start "P2" %softwM2%
@@ -353,7 +119,7 @@ rem ================= SEZIONE ROMA =============================================
 :SUB_ROMA
 	@echo on
 	set softwR1="C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE"
-	set softwR2="C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE"
+	rem set softwR2="C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE"
 	set softwR3="C:\Users\bllmsm70r10e514b\Downloads\Q-Dir_MAX.qdr"
 	set softwR4="C:\Users\bllmsm70r10e514b\AppData\Local\Microsoft\WindowsApps\ms-teams.exe"
 	set softwRpar1=""
@@ -363,102 +129,10 @@ rem ================= SEZIONE ROMA =============================================
 	start "BRW" %BROWSER1% %url_login:~1,-1% 
 	timeout /t %tempo_login% /nobreak
 	
-	rem lancio siti
-	REM start "BRW" %BROWSER1% %url_01:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_02:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_03:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_04:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_05:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_06:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_07:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_08:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_09:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_10:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_11:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_12:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_13:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_14:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_15:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_16:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_17:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_18:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_19:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_20:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_21:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_22:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_23:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_24:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_25:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_26:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_27:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_28:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_29:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_30:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_31:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_32:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	REM start "BRW" %BROWSER1% %url_33:~1,-1%
-	REM timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_34:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_35:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_36:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_37:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_38:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_39:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_40:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_41:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_42:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_43:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_44:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	rem start "BRW" %BROWSER1% %url_45:~1,-1%
-	rem timeout /t %tempo% /nobreak
-	
 	start "P1" %softwR1%
 	timeout /t %tempo% /nobreak
-	start "P2" %softwR2%
-	timeout /t %tempo% /nobreak
+	rem start "P2" %softwR2%
+	rem timeout /t %tempo% /nobreak
 	start "P3" %softwR3%
 	timeout /t %tempo% /nobreak
 	start "P4" %softwR4%
