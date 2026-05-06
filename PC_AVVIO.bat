@@ -124,6 +124,7 @@ rem ================= SEZIONE ROMA =============================================
 	set softwR4="C:\Users\bllmsm70r10e514b\AppData\Local\Microsoft\WindowsApps\ms-teams.exe"
 	set softwRpar1=""
 	set softwR5="C:\Program Files\Google\Google Earth Pro\client\googleearth.exe"
+	set softwR6="C:\Users\bllmsm70r10e514b\Downloads\Virtual Machines\Windows 11 x64\Windows 11 x64.vmx"
 	
 	rem lancio pagina login
 	start "BRW" %BROWSER1% %url_login:~1,-1% 
