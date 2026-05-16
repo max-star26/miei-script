@@ -18,7 +18,7 @@ set BROWSER5="C:\Users\massi\Tor Browser\Browser\firefox.exe"
 set BROWSER6=opera.exe
 
 rem ***URLs***
-set url_blank="about:blank"
+rem set url_blank="about:blank"
 set url_login="https://mail.google.com/" 
 
 rem ================= SEZIONE SCELTA LOCATION ==============================================
@@ -45,7 +45,7 @@ rem ================= SEZIONE CASA =============================================
 	set softwCpar1="-private-window"
 	set softwC10="C:\Users\massi\Documents\DBs\copy_DB_MediaMonkey.bat"
 	set softwC11="C:\Users\massi\Documents\DBs\copy_DB_Calibre.bat"
-	set softwC12="C:\Programmi Portable\PortableApps\Windhawk\windhawk.exe"
+	rem set softwC12="C:\Programmi Portable\PortableApps\Windhawk\windhawk.exe"
 	rem set softwC13="C:\Windows\explorer.exe"
 	rem set softwC14="C:\Programmi Portable\PortableApps\Linkbar_1_6_9\Linkbar64.exe"
 	set softwC15="C:\Program Files\TightVNC\tvnviewer.exe"
@@ -82,6 +82,8 @@ rem ================= SEZIONE CASA =============================================
 	call %softwC11%
 	timeout /t %tempo% /nobreak
 	rem start "P12" %softwC12%
+	rem timeout /t %tempo% /nobreak
+	rem start "P13" %softwC13%
 	rem timeout /t %tempo% /nobreak
 	rem start "P14" %softwC14%
 	rem timeout /t %tempo% /nobreak
