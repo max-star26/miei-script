@@ -47,7 +47,7 @@ rem ================= SEZIONE CASA =============================================
 	set softwC11="C:\Users\massi\Documents\DBs\copy_DB_Calibre.bat"
 	set softwC12="C:\Programmi Portable\PortableApps\Windhawk\windhawk.exe"
 	rem set softwC13="C:\Windows\explorer.exe"
-	set softwC14="C:\Programmi Portable\PortableApps\Linkbar_1_6_9\Linkbar64.exe"
+	rem set softwC14="C:\Programmi Portable\PortableApps\Linkbar_1_6_9\Linkbar64.exe"
 	set softwC15="C:\Program Files\TightVNC\tvnviewer.exe"
 	
 	rem lancio pagina login
@@ -83,8 +83,8 @@ rem ================= SEZIONE CASA =============================================
 	timeout /t %tempo% /nobreak
 	rem start "P12" %softwC12%
 	rem timeout /t %tempo% /nobreak
-	start "P14" %softwC14%
-	timeout /t %tempo% /nobreak
+	rem start "P14" %softwC14%
+	rem timeout /t %tempo% /nobreak
 	start "P15" %softwC15%
 	timeout /t %tempo% /nobreak
 	
