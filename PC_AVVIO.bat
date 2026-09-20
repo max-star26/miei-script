@@ -39,7 +39,7 @@ rem ================= SEZIONE CASA =============================================
 	set softwC4="C:\Program Files (x86)\Synology\SynologyDrive\bin\launcher.exe"
 	set softwC5="C:\Users\massi\Documents\DBs\q-dir.qdr"
 	set softwC6="C:\Program Files\Microsoft OneDrive\OneDrive.exe"
-	set softwC7="C:\Program Files (x86)\Eye Saver\eye saver.exe"
+	rem set softwC7="C:\Program Files (x86)\Eye Saver\eye saver.exe"
 	set softwC8="C:\Users\massi\AppData\Roaming\Telegram Desktop\Telegram.exe"
 	set softwC9="C:\Program Files\Mozilla Firefox\firefox.exe" 
 	set softwCpar1="-private-window"
@@ -70,8 +70,8 @@ rem ================= SEZIONE CASA =============================================
 	timeout /t %tempo% /nobreak
 	start "P6" %softwC6%
 	timeout /t %tempo% /nobreak
-	start "P7" %softwC7%
-	timeout /t %tempo% /nobreak
+	rem start "P7" %softwC7%
+	rem timeout /t %tempo% /nobreak
 	start "P8" %softwC8%
 	timeout /t %tempo% /nobreak
 	rem parametro senza virgolette
