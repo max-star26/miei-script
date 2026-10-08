@@ -125,8 +125,8 @@ rem ================= SEZIONE ROMA =============================================
 	set softwR3="C:\Users\bllmsm70r10e514b\Downloads\Q-Dir_MAX.qdr"
 	set softwR4="C:\Users\bllmsm70r10e514b\AppData\Local\Microsoft\WindowsApps\ms-teams.exe"
 	set softwRpar1=""
-	set softwR5="C:\Program Files\Google\Google Earth Pro\client\googleearth.exe"
-	set softwR6="C:\Users\bllmsm70r10e514b\Downloads\Virtual Machines\Windows 11 x64\Windows 11 x64.vmx"
+	rem set softwR5="C:\Program Files\Google\Google Earth Pro\client\googleearth.exe"
+	rem set softwR6="C:\Users\bllmsm70r10e514b\Downloads\Virtual Machines\Windows 11 x64\Windows 11 x64.vmx"
 	
 	rem lancio pagina login
 	start "BRW" %BROWSER1% %url_login:~1,-1% 
@@ -142,7 +142,7 @@ rem ================= SEZIONE ROMA =============================================
 	timeout /t %tempo% /nobreak
 	rem parametro senza virgolette
 	rem start "P4" %softwR4% %softwRpar1:~1,-1% 
-	start "P5" %softwR5%
+	rem start "P5" %softwR5%
 goto END
 
 rem ================= SEZIONE TEST ==============================================
